@@ -1,6 +1,10 @@
 # Socks5 proxy support for JsonRpsee 
 
-* **Status:** Open 
+:::danger
+This Request for Proposals is _closed_, meaning we are not looking for any more proposals on this topic at the moment.
+:::
+
+* **Status:** [Closed](https://github.com/paritytech/jsonrpsee/issues/870
 * **Proposer:** flipchan   
 
 ## Project Description :page_facing_up: 
@@ -28,11 +32,11 @@ Several ecosystem projects want to add support for connecting to .onion, but are
 
 
 Third party pr's that are waiting for JsonRpsee to support socks5:
-- [Fedimint #391](https://github.com/fedimint/fedimint/issues/391#issuecomment-1643878929)  
+- ~~[Fedimint #391](https://github.com/fedimint/fedimint/issues/391#issuecomment-1643878929)~~ (Closed)
 - [Uptest #15](https://github.com/uptest-sc/uptest/issues/15)   
 
 On 4th of September of 2022 a [pr was created](https://github.com/paritytech/jsonrpsee/issues/870) to start the process of adding socks5 support for JsonRpsee.  
-Noone has had time to fix this issue and implement this feature, therefor this RFP. 
+~~Noone has had time to fix this issue and implement this feature, therefor this RFP.~~ `WsTransportClientBuilder` has been refactored, GH issue was [closed](https://github.com/paritytech/jsonrpsee/issues/870).
 
 
 ## Motivation
